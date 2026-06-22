@@ -1,4 +1,9 @@
- <section className="third-hightlight-wrapper">
+
+
+export default function HighlightSection() {
+  return (
+    <>
+      <section className="third-hightlight-wrapper">
 		<div className="container">
 			<div className="title-wraper bold">
 				iPhone 11 Pro 
@@ -20,3 +25,6 @@
 			</div>
 		</div>
 	</section>
+    </>
+  )
+}
