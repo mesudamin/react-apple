@@ -1,26 +1,26 @@
 
 
-export default function HighlightSection() {
+export default function HighlightSection(props) {
   return (
     <>
       <section className="third-hightlight-wrapper">
 		<div className="container">
 			<div className="title-wraper bold">
-				iPhone 11 Pro 
+				{props.title}
 			</div> 
 
 			<div className="description-wrapper">
-				Pro cameras. Pro display. Pro performance.
+                {props.description}
 			</div>
 
 			<div className="price-wrapper">
-				From $24.95/mo. or $599 with trade‑in.
+                {props.price}
 			</div>
 
 			<div className="links-wrapper">
 				<ul>
-					<li><a href="">Learn more</a></li>
-					<li><a href="">Buy</a></li>
+					<li><a href=""> {props.link1}    </a></li>
+					<li><a href="">{props.link2} </a></li>
 				</ul> 
 			</div>
 		</div>

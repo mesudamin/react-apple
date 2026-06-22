@@ -3,7 +3,8 @@ import tv from "../../images/icons/apple-tv-logo.png"
 import watch from "../../images/icons/watch-series5-logo.png"
 import banker from "../../images/home/banker.png"
 import Arcade from "../../images/icons/arcade.png"
-
+ 
+import HighlightSection from "./HighlightSection";
 
 
 export default function sections() {
@@ -80,6 +81,15 @@ export default function sections() {
 
 
 
+
+
+<HighlightSection
+  title="iPhone 11 Pro"
+  description="Pro cameras. Pro display. Pro performance."
+  price="From $24.95/mo. or $599 with trade-in."
+  link1="Learn more"
+  link2="Buy"
+/>
 
   
 
