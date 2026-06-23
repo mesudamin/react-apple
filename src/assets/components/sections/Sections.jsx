@@ -79,17 +79,23 @@ export default function sections() {
 		</div>
 	</section>
 
+<section className="third-hightlight-wrapper">
+		<div className="container">
+			<HighlightSection
 
-
-
-
-<HighlightSection
+className="title-wraper bold"
   title="iPhone 11 Pro"
   description="Pro cameras. Pro display. Pro performance."
   price="From $24.95/mo. or $599 with trade-in."
   link1="Learn more"
   link2="Buy"
 />
+		</div>
+	</section>
+
+
+
+
 
   
 
@@ -99,22 +105,15 @@ export default function sections() {
 			<div className="row">
 				<div className="left-side-wrapper col-sm-12 col-md-6">
 					<div className="left-side-container">
-						<div className="title-wraper">
-							iPhone 11 
-						</div> 
-						<div className="description-wraper">
-							Just the right amount of everything.
-						</div>
-						<div className="price-wrapper">
-							From $18.70/mo. or $499 with trade‑in.<sup>1</sup>
-						</div>
 
-						<div className="links-wrapper">
-							<ul>
-								<li><a href="">Learn more</a></li>
-								<li><a href="">Apply now</a></li>
-							</ul> 
-						</div>
+						        <HighlightSection
+								className="title-wraper"
+                                 title="iPhone 11"
+                                 description="Just the right amount of everything."
+                                 price="From $18.70/mo. or $499 with trade-in."
+                                       link1="Learn more"
+                                       link2="Apply now"
+                                               />
 					</div>
 				</div>
 				<div className="right-side-wrapper col-sm-12 col-md-6">
