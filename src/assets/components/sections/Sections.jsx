@@ -80,18 +80,17 @@ export default function sections() {
 	</section>
 
 <section className="third-hightlight-wrapper">
-		<div className="container">
-			<HighlightSection
-
-className="title-wraper bold"
-  title="iPhone 11 Pro"
-  description="Pro cameras. Pro display. Pro performance."
-  price="From $24.95/mo. or $599 with trade-in."
-  link1="Learn more"
-  link2="Buy"
-/>
-		</div>
-	</section>
+  <div className="container">
+    <HighlightSection
+      titleClass="title-wraper bold"
+      title="iPhone 11 Pro"
+      description="Pro cameras. Pro display. Pro performance."
+      price="From $24.95/mo. or $599 with trade-in."
+      link1="Learn more"
+      link2="Buy"
+    />
+  </div>
+</section>
 
 
 
@@ -104,18 +103,19 @@ className="title-wraper bold"
 		<div className="container-fluid">
 			<div className="row">
 				<div className="left-side-wrapper col-sm-12 col-md-6">
-					<div className="left-side-container">
+                      <div className="left-side-container">
 
-						        <HighlightSection
-								className="title-wraper"
-                                 title="iPhone 11"
-                                 description="Just the right amount of everything."
-                                 price="From $18.70/mo. or $499 with trade-in."
-                                       link1="Learn more"
-                                       link2="Apply now"
-                                               />
-					</div>
-				</div>
+                            <HighlightSection
+                           titleClass="title-wraper"
+                           title="iPhone 11"
+                            description="Just the right amount of everything."
+                            price="From $18.70/mo. or $499 with trade-in."
+                           link1="Learn more"
+                          link2="Apply now"
+                              />
+
+                        </div>
+                  </div>
 				<div className="right-side-wrapper col-sm-12 col-md-6">
 					<div className="right-side-container">
 						<div className="title-wraper white">
