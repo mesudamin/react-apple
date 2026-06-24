@@ -1,6 +1,6 @@
 export default function HighlightSection(props) {
   return (
-    <div>
+    <>
       <div className={props.titleClass}>
         {props.title}
       </div>
@@ -19,6 +19,6 @@ export default function HighlightSection(props) {
           <li><a href="">{props.link2}</a></li>
         </ul>
       </div>
-    </div>
+    </>
   );
-}
+} 

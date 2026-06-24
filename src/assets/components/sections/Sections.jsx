@@ -92,13 +92,6 @@ export default function sections() {
   </div>
 </section>
 
-
-
-
-
-  
-
-
   	<section className="fourth-heghlight-wrapper">
 		<div className="container-fluid">
 			<div className="row">
